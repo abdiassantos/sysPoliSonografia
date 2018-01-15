@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sistema de polissonografia</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript">
+      $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+        
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <!--CABEÇALHO-->
+      <nav class="white light-blue darken-3 white-text" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo white-text">{Logo}</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse white-text">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down white-text">
+            <li><a href="dashboardUser.html" class="white-text">Inicio</a></li>
+            <li><a href="novoLaudo.html" class="white-text">Solicitar novo laudo</a></li>
+            <li><a href="meuPerfil.html" class="white-text">Meu Perfil</a></li>
+            <li><a href="index.html" class="white-text">Sair</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="dashboardUser.html" class="light-blue-text darken-4">Inicio</a></li>
+            <li><a href="novoLaudo.html" class="light-blue-text darken-4">Solicitar novo laudo</a></li>
+            <li><a href="meuPerfil.html" class="light-blue-text darken-4">Meu Perfil</a></li>
+            <li><a href="index.html" class="light-blue-text darken-4">Sair</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--FIM DO CABEÇALHO-->
+    </header>
+    <main>
+      <div class="container">
+        <div class="section">
+          
+          <div class="left-align">
+            <h3 class="blue-text">Meu perfil</h3s>
+            <br/>
+            <br/>
+            <div class="col s12 l12">
+              <form>
+                <input type="text" name="cadastro" placeholder="CPF ou CNPJ"/>
+                <input type="text" name="usuario" placeholder="Usuario"/>
+                <input type="email" name="email" placeholder="Email"/>
+                <input type="password" name="senha" placeholder="Senha"/>
+                <input type="password" name="confSenha" placeholder="Confirme sua senha"/>
+                <button class="btn blue">Corrigir dados</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  <!--RODAPÉ-->
+  <footer class="page-footer light-blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">{Logo}Sistema de polissonografia</h5>
+          <p class="grey-text text-lighten-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus.
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Sobre a Polissonografia</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Como funciona o exame?</a></li>
+            <li><a class="white-text" href="#!">Quanto tempo demora o laudo?</a></li>
+            <li><a class="white-text" href="#!">Minhas informações estão seguras?</a></li>
+            <li><a class="white-text" href="#!">Como entro em contato?</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="footer-copyright">
+        <div class="container">
+         © 2017 Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Freelancer App</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+  </body>
+</html>
